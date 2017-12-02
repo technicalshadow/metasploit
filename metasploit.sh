@@ -23,17 +23,7 @@ gem install bundler
 sed 's|nokogiri (1.*)|nokogiri (1.8.0)|g' -i Gemfile.lock
 
 gem install nokogiri -v 1.8.0 -- --use-system-libraries
- 
-#sed 's|grpc (.*|grpc (1.4.1)|g' -i $HOME/metasploit-framework/Gemfile.lock
-#gem unpack grpc -v 1.4.1
-#cd grpc-1.4.1
-#curl -LO https://raw.githubusercontent.com/grpc/grpc/v1.4.1/grpc.gemspec
-#curl -L https://raw.githubusercontent.com/Hax4us/Hax4us.github.io/master/extconf.patch
-#patch -p1 < extconf.patch
-#gem build grpc.gemspec
-#gem install grpc-1.4.1.gem
-#cd ..
-#rm -r grpc-1.4.1
+
 
 
 cd $HOME/metasploit-framework
@@ -52,7 +42,7 @@ termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.4.0/gems/pg-0
 echo "Creating database"
 
 cd $HOME/metasploit-framework/config
-curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/database.yml
+curl -LO https://raw.githubusercontent.com/technicalshadow/metasploit/master/database.yml
 
 mkdir -p $PREFIX/var/lib/postgresql
 initdb $PREFIX/var/lib/postgresql
@@ -67,11 +57,11 @@ echo "DON'T FORGET TO SUBSCRIBE TECHNICAL SHADOW"
 echo "###############################"
 
 echo "###############################################"
-echo "WE ARE TECHNICAL SHADOW,  Subscribe  My  Channel  To  Motivate  My  Work"
+echo "I AM TECHNICAL SHADOW,  Subscribe  My  Channel  To Know More"
 echo "###############################################"
 echo "###############################"
 echo "For  More. Tricks. CONTACT ME 7788072739"
 echo "###############################"
 echo "####################################"
 echo " NOW YOU CAN LAUNCH METASPLOIT BY JUST EXECUTE THE COMMAND :=> msfconsole"
-echo "####################################"
+echo "##############SHADOW################"
